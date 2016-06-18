@@ -24,16 +24,21 @@ Code sections must start on a new paragraph.
 
 Code section without markup:
 
-> = This is not a heading.
+> This is not a reference to 'exportedEntity'.
 
-Code section supporting markup:
+Code section supporting markup (except headings):
 
 @
-= This is a heading.
+This is a reference to 'exportedEntity'.
+/This is emphasised/
+<http://example.com URL>
 @
 
-These are all special charaters that must be escaped with a backslash:
-> \\\/'`"@<
+Inline code section: @f 'exportedEntity'@.
+
+These are all special characters that must be escaped with a backslash:
+
+> \/'`"@<
 
 Apostrophes don't have to be escaped unless they surround a valid Haskell entity.
 
@@ -86,16 +91,17 @@ module Haddock (
     exportedEntity,
     -- * Section 2
     -- ** Subsection
-    exportedEntity2
+    typeInferenceWorks
 ) where
 
--- | This won't be haddocked.
+-- | This won't be haddock'ed.
 nonExportedEntity = undefined
 
 -- | Description of 'exportedEntity'
-exportedEntity :: Int -- ^ 1st argument
-               -> Int -- ^ Result
+exportedEntity :: Num a
+               => a -- ^ 1st argument
+               -> a -- ^ Result
 exportedEntity = undefined
 
 
-exportedEntity2 = undefined
+typeInferenceWorks = map head
