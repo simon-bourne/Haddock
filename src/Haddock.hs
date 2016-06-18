@@ -3,7 +3,7 @@ Description : Short description
 Copyright   : Simon Bourne
 License     : BSD
 
-Long description. This is an reference for all the features of Haddock I personally use.
+Long description. This is a reference for all the features of Haddock I personally use.
 This is in the same paragraph.
 
 This is in a new paragraph.
