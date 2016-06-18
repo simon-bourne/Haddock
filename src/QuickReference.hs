@@ -53,8 +53,14 @@ License     : BSD
 
 module QuickReference (
     -- * Export section heading
+    -- $sectionText
     f
 ) where
+
+{- $sectionText
+
+Section text
+-}
 
 -- | Description of 'f'
 f :: a -- ^ Parameter.

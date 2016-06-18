@@ -93,8 +93,14 @@ module Haddock (
     exportedEntity,
     -- * Section 2
     -- ** Subsection
+    -- $section2Text
     typeInferenceWorks
 ) where
+
+{- $section2Text
+    Section 2 text
+-}
+
 
 -- | This won't be haddock'ed.
 nonExportedEntity = undefined
