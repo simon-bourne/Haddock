@@ -12,6 +12,8 @@ category:
 build-type:           Simple
 -- extra-source-files:
 cabal-version:        >=1.10
+extra-doc-files:      images/haskell-logo/logo-0.svg
+                      images/haskell-logo/LICENSE
 
 library
   build-depends:        base >= 4.7 && < 5

@@ -30,7 +30,7 @@ License     : BSD
 * Link to anchor: "QuickReference#anchor"
 
 = Images
-<<http://example.com/example.svg Alt text>>
+<<images/haskell-logo/logo-0.svg Alt text>>
 
 = Code Sections
 

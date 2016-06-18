@@ -76,7 +76,9 @@ A description list must start in a new paragraph:
 
 <http://example.com This is a hyperlink>. So is this: http://example.com
 
-This is an image: <<http://example.com/example.svg An image>>
+This is an image:
+
+<<images/haskell-logo/logo-0.svg This is the alt text>>
 
 #exampleAnchor# This is an anchor that can be referenced from elsewhere.
 
