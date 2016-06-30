@@ -28,6 +28,7 @@ License     : BSD
 * Naked URL: http://example.com
 * #anchor# Anchor.
 * Link to anchor: "QuickReference#anchor"
+* Named <#anchor anchor link>
 
 = Images
 <<images/haskell-logo/logo-0.svg Alt text>>
